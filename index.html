@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = 'utf-8'></meta>
+  <meta name = 'keywords' content = 'Conventer, from binary to hex, from decimial to hex, from hex to decimial,
+   from hex to binary, from decimial to binary, from binary to decimial, conventer online,
+   conventer, binary to decimial, binary to hex, hex to decimial, hex to binary, decimial to binary, decimial to hex'>
+  <meta name="viewport" content="format-detection=no,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,width=device-width">
+  <link rel = 'icon' href = 'img/iconfinder_2_2509377.png'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Piazzolla:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans+JP:wght@100&family=Piazzolla:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <title>Conventer Online</title>
+</head>
+<body>
+<div id = 'al'>
+  <span>Please choose the correct system.</span>
+</div>
+<div class = 'maind'>
+  <h1>Conventer</h1>
+  <image src = 'img/c8f84fc8988ae35d2ddbcae3107fc59d8f70af93.svg' class = 'img'>
+  <h2 class = 'to'>To:</h2>
+  <h2 class = 'from'>From:</h2>
+  <input id = 'in'></input>
+  <select id="select">
+    <option value="binary">binary</option>
+    <option value="hex">hex</option>
+    <option value="dec">dec</option>
+  </select>
+  <select id="select2">
+    <option value="binary">binary</option>
+    <option value="hex">hex</option>
+    <option value="dec">dec</option>
+  </select>
+  <button onclick="calc()">Convert</button>
+  <span class = 'res'>Result: <span id = 'r'></span></span>
+</div>
+<script src="Js/main.js" defer></script>
+</body>
+</html>
